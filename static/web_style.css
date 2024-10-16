@@ -1,0 +1,78 @@
+ body {
+     background-color: black; /* Black background */
+     color: #FF7700; /* SL Style Orange text color */
+     font-family: 'Courier New', Courier, monospace; /* Terminal-like font */
+     text-align: center;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+ 
+ /* Glow effect for text */
+ h1 {
+     color: #FFFFFF; /* White title text */
+ }
+
+ .class-times {
+     margin: 20px auto;
+     padding: 10px;
+ }
+
+ .class-item {
+     font-size: 24px;
+     margin: 5px;
+ }
+
+ /* Give the text a subtle flicker effect for more authenticity */
+ @keyframes flicker {
+     0% { opacity: 1; }
+     50% { opacity: 0.9; }
+     100% { opacity: 1; }
+ }
+
+ .glow {
+     animation: flicker 1.5s infinite alternate;
+        body {
+     background-color: #000000; /* Black background */
+     color: #00FF00; /* Bright green text color */
+     font-family: 'Courier New', Courier, monospace; /* Terminal-like font */
+     text-align: center;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+ 
+ /* Glow effect for text */
+ .glow {
+     text-shadow: 0 0 2px #00FF00, 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 40px #00FF00;
+ }
+
+ h1 {
+     color: #FFFFFF; /* White title text */
+     text-shadow: 0 0 5px #FFFFFF, 0 0 10px #FFFFFF, 0 0 20px #FFFFFF;
+ }
+
+ .class-times {
+     margin: 20px auto;
+     padding: 10px;
+ }
+
+ .class-item {
+     font-size: 24px;
+     margin: 5px;
+ }
+
+ /* Give the text a subtle flicker effect for more authenticity */
+ @keyframes flicker {
+     0% { opacity: 1; }
+     50% { opacity: 0.9; }
+     100% { opacity: 1; }
+ }
+
+ .glow {
+     animation: flicker 1.5s infinite alternate;
+ } }
